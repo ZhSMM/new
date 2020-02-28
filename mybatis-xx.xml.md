@@ -1,0 +1,33 @@
+# mybatis-xx.xml
+
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <properties resource="config/db.properties">
+        <!--其他属性<property name="jdbc.drive" value="com.mysql.cj.jdbc.Driver"/>-->
+    </properties>
+    <!-- 和spring整合后 environments配置将废除-->
+    <environments default="development">
+        <environment id="development">
+            <!-- 使用jdbc事务管理，事务控制由mybatis-->
+            <transactionManager type="JDBC" />
+            <!-- 数据库连接池,由mybatis管理-->
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}" />
+                <property name="url" value="${jdbc.url}" />
+                <property name="username" value="${jdbc.username}" />
+                <property name="password" value="${jdbc.password}" />
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <mapper resource="sqlmap/User.xml"></mapper>
+        <mapper resource="UserMapper.xml"></mapper>
+    </mappers>
+</configuration>
+```
+
