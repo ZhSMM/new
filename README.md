@@ -14,5 +14,6 @@
 - [MVC](./MVC.md)
 - [SpringMVC工作流程](./SpringMVC工作流程.md)
 - [SpringMVC初步](./SpringMVC初步.md)
+- [SpringMVC实现简单Rest风格](./SpringMVC实现简单Rest风格.md)
 - 
 
