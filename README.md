@@ -10,5 +10,7 @@
 
 ## SpringMVC
 
+- [MVC](./MVC.md)
+
 - [SpringMVC工作流程](./SpringMVC工作流程.md)
 
