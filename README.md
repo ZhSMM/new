@@ -10,7 +10,9 @@
 
 ## SpringMVC
 
+- [IntelliJidea报错](./IntelliJidea报错.md)
 - [MVC](./MVC.md)
-
 - [SpringMVC工作流程](./SpringMVC工作流程.md)
+- [SpringMVC初步](./SpringMVC初步.md)
+- 
 
