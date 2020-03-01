@@ -10,15 +10,15 @@
 
 ## SpringMVC
 
-- [IntelliJidea报错](./IntelliJidea报错.md)
-- [MVC](./MVC.md)
-- [SpringMVC工作流程](./SpringMVC工作流程.md)
-- [SpringMVC初步](./SpringMVC初步.md)
-- [Rest风格](./Rest风格.md)
-- [SpringMVC实现简单Rest风格](./SpringMVC实现简单Rest风格.md)
-- [SpringMVC传参](./SpringMVC传参.md)
-- [SpringMVC传参1](./SpringMVC传参1.md)
-- [SpringMVC参数保存](./SpringMVC参数保存.md)
-- [SpringMVC请求转发](./SpringMVC请求转发.md)
-- [SpringMVC重定向](./SpringMVC重定向.md)
+- [IntelliJidea报错](./SpringMVC/IntelliJidea报错.md)
+- [MVC](./SpringMVC/MVC.md)
+- [SpringMVC工作流程](./SpringMVC/SpringMVC工作流程.md)
+- [SpringMVC初步](./SpringMVC/SpringMVC初步.md)
+- [Rest风格](./SpringMVC/Rest风格.md)
+- [SpringMVC实现简单Rest风格](./SpringMVC/SpringMVC实现简单Rest风格.md)
+- [SpringMVC传参](./SpringMVC/SpringMVC传参.md)
+- [SpringMVC传参1](./SpringMVC/SpringMVC传参1.md)
+- [SpringMVC参数保存](./SpringMVC/SpringMVC参数保存.md)
+- [SpringMVC请求转发](./SpringMVC/SpringMVC请求转发.md)
+- [SpringMVC重定向](./SpringMVC/SpringMVC重定向.md)
 
