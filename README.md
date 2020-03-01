@@ -22,4 +22,5 @@
 - [SpringMVC请求转发](./SpringMVC/SpringMVC请求转发.md)
 - [SpringMVC重定向](./SpringMVC/SpringMVC重定向.md)
 - [@ModelAttribute](./SpringMVC/@ModelAttribute.md)
+- [view实现类](./SpringMVC/view实现类.md)
 
