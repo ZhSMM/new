@@ -95,7 +95,7 @@ public String restGet(@PathVariable(value = "id")Integer id,
 
 3. 创建一个Filter来包装HttpRequest中的getMethod()方法：
 
-   ![request转发示意图.png](./images/request转发示意图.png)
+   ![request转发示意图.png](../images/request转发示意图.png)
 
    - 客户端发送请求至服务器，这时如果发送的是POST请求且带有以_method为名的参数，会被`Spring的HiddenHttpMethodFilter`给拦截；
    - `HiddenHttpMethodFilter`内有一个静态内部类通过继承`HttpServletRequestWrapper`类并重写`getMethod()`方法，将该方法返回值设为_method隐藏域的值；

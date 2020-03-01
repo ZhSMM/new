@@ -1,6 +1,6 @@
 # SpringMVC工作流程
 
-![SpringMVC工作流程图](./images/SpringMVC工作流程.png)
+![SpringMVC工作流程图](../images/SpringMVC工作流程.png)
 
 ## 工作原理
 
