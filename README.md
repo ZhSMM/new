@@ -12,6 +12,7 @@
 
 - [IntelliJidea报错](./SpringMVC/IntelliJidea报错.md)
 - [MVC](./SpringMVC/MVC.md)
+- [Spring MVC](./SpringMVC/SpringMVC.md)
 - [SpringMVC工作流程](./SpringMVC/SpringMVC工作流程.md)
 - [SpringMVC初步](./SpringMVC/SpringMVC初步.md)
 - [Rest风格](./SpringMVC/Rest风格.md)
@@ -22,22 +23,20 @@
 - [SpringMVC请求转发](./SpringMVC/SpringMVC请求转发.md)
 - [SpringMVC重定向](./SpringMVC/SpringMVC重定向.md)
 - [@ModelAttribute](./SpringMVC/@ModelAttribute.md)
-- [view实现类](./SpringMVC/view实现类.md)
-
-
+- [view实现类](./SpringMVC/View实现类.md)
 
 ## sql
 
 - [sql](./sql/sql.md)
 - [MySql使用](./sql/MySql使用.md)
 - [查询练习](./sql/查询联系.md)
-- [mysql](./sql/mysql.md)
+- [mysql](./sql/MySql.md)
 - redis
 - [MongDB](./MongoDB数据库.md)
 
 ## Java
 
-- [类加载器ClassLoader](./java/类加载器ClassLoader.md)
+- [类加载器ClassLoader](./java/类装载器ClassLoader.md)
 - [JavaGC](./java/JavaGC.md)
 - [对象和类](./java/对象和类.md)
 - [继承](./java/继承.md)
@@ -52,7 +51,7 @@
 
 ## Servlet
 
-- [Servlet生命周期](./Servlet/Servlet生命周期.md)
+- [Servlet生命周期](./servlet/Servlet生命周期.md)
 
 ## Spring
 
@@ -66,7 +65,3 @@
 - [Spring Boot缓存](./SpringBoot/SpringBoot缓存.md)
 - [Spring Boot的Web项目](./SpringBoot/SpringBoot的Web项目.md)
 - [页面模板](./SpringBoot/页面模板Thymeleaf.md)
-
-## Spring MVC
-
-- [Spring MVC](./springMVC/SpringMVC.md)
