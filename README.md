@@ -36,6 +36,9 @@
 
 ## Java
 
+- [JVM推荐资源](./java/JVM推荐资源.md)
+- [Java运行时数据区域](./java/运行时数据区域.md)
+- [Java集合](./java/Java集合.md)
 - [类加载器ClassLoader](./java/类装载器ClassLoader.md)
 - [JavaGC](./java/JavaGC.md)
 - [对象和类](./java/对象和类.md)
