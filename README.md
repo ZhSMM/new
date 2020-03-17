@@ -8,6 +8,30 @@
 - [xxMapper.xml](./xxMapper.xml.md)
 - [log4j.properties](./log4j.properties.md)
 
+## Java
+
+- [JVM推荐资源](./java/JVM推荐资源.md)
+- [Java运行时数据区域](./java/运行时数据区域.md)
+- [Java集合](./java/Java集合.md)
+- [类加载器ClassLoader](./java/类装载器ClassLoader.md)
+- [JavaGC](./java/JavaGC.md)
+- [对象和类](./java/对象和类.md)
+- [继承](./java/继承.md)
+- [流 ](./java/流.md)
+- [构建流](./java/构建流.md)
+
+### 多线程
+
+- [线程](./java/线程.md)
+- [线程同步机制](./java/线程同步机制.md)
+
+### 集合
+
+- [Java集合](./java/Java集合.md)
+- [List](./java/List.md)
+- [Map](./java/Map.md)
+- [Set](./java/Set.md)
+
 ## 网络
 
 - [网络通讯协议](./网络/网络通讯协议.md)
@@ -41,23 +65,6 @@
 - [mysql](./sql/MySql.md)
 - redis
 - [MongDB](./MongoDB数据库.md)
-
-## Java
-
-- [JVM推荐资源](./java/JVM推荐资源.md)
-- [Java运行时数据区域](./java/运行时数据区域.md)
-- [Java集合](./java/Java集合.md)
-- [类加载器ClassLoader](./java/类装载器ClassLoader.md)
-- [JavaGC](./java/JavaGC.md)
-- [对象和类](./java/对象和类.md)
-- [继承](./java/继承.md)
-- [流 ](./java/流.md)
-- [构建流](./java/构建流.md)
-
-### 多线程
-
-- [线程](./java/线程.md)
-- [线程同步机制](./java/线程同步机制.md)
 
 ## MyBatis
 
