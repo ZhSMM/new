@@ -114,7 +114,7 @@ public class MyClassLoader extends ClassLoader {
     // 用于标记这些name的类是先由自身加载的
     private Set<String> useMyClassLoaderLoad;
 
-    public MyClassLoader(String swapPath, Set<String> useMyClassLoaderLoad) {
+    private MyClassLoader(String swapPath, Set<String> useMyClassLoaderLoad) {
         this.swapPath = swapPath;
         this.useMyClassLoaderLoad = useMyClassLoaderLoad;
     }
