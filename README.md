@@ -31,6 +31,14 @@
 - [线程同步机制](./java/线程同步机制.md)
 - [多线程实践](./java/多线程实践.md)
   - [栅栏CyclicBarrier](./java/栅栏CyclicBarrier.md)
+  - [生产者-消费者模式](./java/生产者-消费者模式.md)
+    - [ArrayBlockingQueue](./java/ArrayBlockingQueue.md)
+    - [LinkedBlockingQueue](./java/LinkedBlockingQueue.md)
+    - [PriorityBlockingQueue](./java/PriorityBlockingQueue.md)
+    - [DelayQueue](./java/DelayQueue.md)
+    - [SynchronousQueue](./java/SynchronousQueue.md)
+    - [LinkedTransferQueue](./java/LinkedTransferQueue.md)
+    - [LinkedBlockingDeque](./java/LinkedBlockingDeque.md)
 
 ### 集合
 

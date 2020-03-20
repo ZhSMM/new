@@ -1,0 +1,3 @@
+# LinkedBlockingDeque
+
+LinkedBlockingDeque是一个有界的双端队列，底层采用一个双向的链表来实现，在LinkedBlockingQeque的Node实现多了指向前一个节点的变量prev。并发控制上和ArrayBlockingQueue类似，采用单个ReentrantLock来控制并发，这里是因为双端队列头尾都可以消费和生产，所以使用了一个共享锁。它实现了BlockingDeque接口，继承自BlockingQueue接口，多了addFirst，addLast，offerFirst，offerLast，peekFirst，peekLast等方法，用来头尾生产和消费。LinkedBlockingDeque的实现代码比较简单，基本就是综合了LinkedBlockingQeque和ArrayBlockingQueue的代码逻辑.
