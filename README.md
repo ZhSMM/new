@@ -109,6 +109,7 @@
 - [Spring容器](./Spring/Spring容器.md)
 - [Spring初步](./Spring/Spring初步.md)
 - [装配Bean](./Spring/装配Bean.md)
+  - [XML装配Bean](./Spring/XML装配Bean.md)
 
 ## Spring Boot
 
