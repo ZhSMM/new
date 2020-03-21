@@ -1,5 +1,7 @@
 # Semaphore
 
+用来控制并发线程的数量。
+
 ```java
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.Semaphore;
