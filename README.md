@@ -43,7 +43,7 @@
           - [SynchronousQueue](./java/SynchronousQueue.md)
           - [LinkedTransferQueue](./java/LinkedTransferQueue.md)
           - [LinkedBlockingDeque](./java/LinkedBlockingDeque.md)
-      - 
+      - [Semaphore](./java/Semaphore.md)
 
 ### 集合
 
