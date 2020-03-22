@@ -1,5 +1,7 @@
 # 学习路径
 
+- [旧笔记](https://zhsmm.github.io/Java/)
+
 ## maven依赖
 
 - [maven配置spring项目](./maven配置spring项目.md)
