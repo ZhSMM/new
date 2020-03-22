@@ -110,6 +110,8 @@
 - [Spring初步](./Spring/Spring初步.md)
 - [装配Bean](./Spring/装配Bean.md)
   - [XML装配Bean](./Spring/XML装配Bean.md)
+  - [自动化装配](./Spring/自动化装配.md)
+  - [通过java代码装配Bean](./Spring/通过java代码装配Bean.md)
 
 ## Spring Boot
 
