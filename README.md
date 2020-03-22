@@ -115,6 +115,7 @@
   - [自动化装配](./Spring/自动化装配.md)
   - [通过java代码装配Bean](./Spring/通过java代码装配Bean.md)
   - [拆分配置类](./Spring/拆分配置类.md)
+  - [高级装配](./Spring/高级装配.md)
 
 ## Spring Boot
 
