@@ -1,5 +1,7 @@
 # 学习路径
 
+- [代码练习](https://github.com/ZhSMM/threadtest)
+
 - [旧笔记](https://zhsmm.github.io/Java/)
 
 ## maven依赖
