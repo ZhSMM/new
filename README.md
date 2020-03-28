@@ -1,8 +1,8 @@
 # 学习路径
 
 - [代码练习](https://github.com/ZhSMM/threadtest)
-
 - [旧笔记](https://zhsmm.github.io/Java/)
+- [面试问题](./java/面试准备.md)
 
 ## maven依赖
 
@@ -20,8 +20,12 @@
 - [JavaGC](./java/JavaGC.md)
 - [对象和类](./java/对象和类.md)
 - [继承](./java/继承.md)
+
+### Java 流
+
 - [流 ](./java/流.md)
 - [构建流](./java/构建流.md)
+- [Java IO流](./java/JavaIO流.md)
 
 ### 类加载器
 
