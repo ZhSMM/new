@@ -160,7 +160,7 @@ java IO流对象：
    装饰流：
 
    - BufferedWriter：是一个装饰器为Writer 提供缓冲功能；
-- PrintWriter 和PrintStream：极其类似，功能和使用也非常相似；
+   - PrintWriter 和PrintStream：极其类似，功能和使用也非常相似；
    - OutputStreamWriter 是OutputStream 到Writer 转换的桥梁，它的子类FileWriter是实现此功能的具体类；
 
 6. 字符流与字节流转换：
