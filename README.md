@@ -4,6 +4,10 @@
 - [旧笔记](https://zhsmm.github.io/Java/)
 - [面试问题](./java/面试准备.md)
 
+## 编码
+
+- [Unicode编码规则](./java/UTF-8编码规则.md)
+
 ## maven依赖
 
 - [maven配置spring项目](./maven配置spring项目.md)
