@@ -41,8 +41,13 @@
 ### 多线程
 
 - [线程](./java/线程.md)
+
 - [线程同步机制](./java/线程同步机制.md)
+
 - [多线程实践](./java/多线程实践.md)
+  
+  - [ThreadLocal](./java/ThreadLocal.md)
+  
   - [栅栏CyclicBarrier](./java/栅栏CyclicBarrier.md)
   - [生产者-消费者模式](./java/生产者-消费者模式.md)
     
