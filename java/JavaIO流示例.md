@@ -24,6 +24,41 @@ public static void listChildes(File file,int level){
 }
 ```
 
+## 概览
+
+InputStream和Reader是所有输入流的抽象基类，本身并不能创建实例来执行输入，但它们将成为所有输入流的模板，所以它们的方法是所有输入流都可使用的方法。 
+ 在InputStream里面包含如下3个方法。
+
+- int read(); 从输入流中读取单个字节，返回所读取的字节数据（字节数据可直接转换为int类型）。
+- int read(byte[] b)；从输入流中最多读取b.length个字节的数据，并将其存储在字节数组b中，返回实际读取的字节数。
+- int read(byte[] b,int off,int len); 从输入流中最多读取len个字节的数据，并将其存储在数组b中，放入数组b中时，并不是从数组起点开始，而是从off位置开始，返回实际读取的字节数。
+
+在Reader中包含如下3个方法。
+
+- int read(); 从输入流中读取单个字符（相当于从图15.5所示的水管中取出一滴水），返回所读取的字符数据（字节数据可直接转换为int类型）。
+- int read(char[] b)从输入流中最多读取b.length个字符的数据，并将其存储在字节数组b中，返回实际读取的字符数。
+- int read(char[] b,int off,int len); 从输入流中最多读取len个字符的数据，并将其存储在数组b中，放入数组b中时，并不是从数组起点开始，而是从off位置开始，返回实际读取的字符数。
+
+InputStream和Reader提供的一些移动指针的方法：
+
+- void mark(int readAheadLimit); 在记录指针当前位置记录一个标记（mark）。
+- boolean markSupported(); 判断此输入流是否支持mark()操作，即是否支持记录标记。
+- void reset(); 将此流的记录指针重新定位到上一次记录标记（mark）的位置。
+- long skip(long n); 记录指针向前移动n个字节/字符。
+
+
+
+OutputStream和Writer：
+
+- void write(int c); 将指定的字节/字符输出到输出流中，其中c即可以代表字节，也可以代表字符。
+- void write(byte[]/char[] buf); 将字节数组/字符数组中的数据输出到指定输出流中。
+- void write(byte[]/char[] buf, int off,int len ); 将字节数组/字符数组中从off位置开始，长度为len的字节/字符输出到输出流中。
+
+因为字符流直接以字符作为操作单位，所以Writer可以用字符串来代替字符数组，即以String对象作为参数。Writer里面还包含如下两个方法。
+
+- void write(String str); 将str字符串里包含的字符输出到指定输出流中。
+- void write (String str, int off, int len); 将str字符串里面从off位置开始，长度为len的字符输出到指定输出流中。
+
 ## 字节流
 
 ### 基类
@@ -37,7 +72,8 @@ public static void listChildes(File file,int level){
 abstract int read()
 // 从输入流中读取一定数量的字节，并将其存储在缓冲区数组b中
 int read(byte[] b)
-// 将输入流中最多 len 个数据字节读入 byte 数组
+// 从输入流中最多读取len个字节的数据，并将其存储在数组b中，放入数组b中时，
+//  并不是从数组起点开始，而是从off位置开始，返回实际读取的字节数。
 int read(byte[] b, int off, int len)
 // 跳过和丢弃此输入流中数据的 n个字节
 long skip(long n)
@@ -255,11 +291,13 @@ public static void main(String[] args) throws IOException {
 常用方法：
 
 ```java
-// 读取单个字符
+// 从输入流中读取单个字符，返回所读取的字符数据（字节数据可直接转换为int类型）。
 int read()
-// 将字符读入数组
+// 从输入流中最多读取b.length个字符的数据，并将其存储在字节数组b中，返回
+// 实际读取的字符数。
 int read(char[] cbuf)
-// 将字符读入数组的某一部分
+// 从输入流中最多读取len个字符的数据，并将其存储在数组b中，放入数组b中时，
+// 并不是从数组起点开始，而是从off位置开始，返回实际读取的字符数
 abstract int read(char[] cbuf, int off, int len)
 // 跳过字符
 long skip(long n)
