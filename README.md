@@ -18,13 +18,17 @@
 
 ## Java
 
+- [对象和类](./java/对象和类.md)
+- [继承](./java/继承.md)
+- [Java集合](./java/Java集合.md)
+
+### JVM
+
 - [JVM推荐资源](./java/JVM推荐资源.md)
 - [Java运行时数据区域](./java/运行时数据区域.md)
 - [JavaGC](./java/JavaGC.md)
 - [JVM参数](./java/jvm参数.md)
-- [对象和类](./java/对象和类.md)
-- [继承](./java/继承.md)
-- [Java集合](./java/Java集合.md)
+- [JVM内存分配担保机制](./java/JVM内存分配担保机制.md)
 
 ### Java 流
 
