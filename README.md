@@ -20,10 +20,11 @@
 
 - [JVM推荐资源](./java/JVM推荐资源.md)
 - [Java运行时数据区域](./java/运行时数据区域.md)
-- [Java集合](./java/Java集合.md)
 - [JavaGC](./java/JavaGC.md)
+- [JVM参数](./java/jvm参数.md)
 - [对象和类](./java/对象和类.md)
 - [继承](./java/继承.md)
+- [Java集合](./java/Java集合.md)
 
 ### Java 流
 
