@@ -29,7 +29,7 @@
 - [JavaGC](./java/JavaGC.md)
 - [JVM参数](./java/jvm参数.md)
 - [JVM内存分配担保机制](./java/JVM内存分配担保机制.md)
-- [Full GC(Ergonomics)产生的原因](./java/FullGC(Ergonomics)产生的原因.md)
+- [Full GC(Ergonomics)产生的原因](./java/FullGCErgonomics产生的原因.md)
 
 ### Java 流
 
