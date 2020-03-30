@@ -11,6 +11,7 @@
 ## maven依赖
 
 - [maven配置spring项目](./maven配置spring项目.md)
+- [在Maven指定编译的jdk版本](./java/在Maven指定编译的jdk版本.md)
 - [db.properties](./db.properties)
 - [mybatis-xx.xml](./mybatis-xx.xml.md)
 - [xxMapper.xml](./xxMapper.xml.md)
@@ -30,6 +31,7 @@
 - [JVM参数](./java/jvm参数.md)
 - [JVM内存分配担保机制](./java/JVM内存分配担保机制.md)
 - [Full GC(Ergonomics)产生的原因](./java/FullGCErgonomics产生的原因.md)
+- [Java四种引用](./java/Java四种引用.md)
 
 ### Java 流
 
