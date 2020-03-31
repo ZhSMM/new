@@ -333,7 +333,3 @@ public void saveGroup(User user1,User user2){
    ```
    spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
    ```
-
-## 参考
-
-1. [https://www.cnblogs.com/wadmwz/p/10313495.html](https://www.cnblogs.com/wadmwz/p/10313495.html)
