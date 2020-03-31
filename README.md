@@ -151,3 +151,10 @@
 ### Spring Security
 
 - [简单使用](./SpringBoot/springsecurity/简单使用.md)
+- [表单认证](./SpringBoot/springsecurity/表单认证.md)
+
+### Spring Boot JPA
+
+- [Spring Data JPA使用](./SpringBoot/JPA/SpringDataJPA使用.md)
+- 
+
