@@ -3,6 +3,11 @@
 - [代码练习](https://github.com/ZhSMM/threadtest)
 - [旧笔记](https://zhsmm.github.io/Java/)
 - [面试问题](./java/面试准备.md)
+- [Git使用帮助](https://help.github.com/cn/github/searching-for-information-on-github/searching-for-repositories)
+- [epubee](http://cn.epubee.com)
+- [鸠摩搜书](https://www.jiumodiary.com/)
+- [虫部落](https://search.chongbuluo.com/)
+- [万千合集站](http://www.toplinks.cc/s/)
 
 ## 编码
 
