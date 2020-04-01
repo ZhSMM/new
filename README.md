@@ -3,7 +3,11 @@
 - [代码练习](https://github.com/ZhSMM/threadtest)
 - [旧笔记](https://zhsmm.github.io/Java/)
 - [面试问题](./java/面试准备.md)
+
+## 官方网站
+
 - [Git使用帮助](https://help.github.com/cn/github/searching-for-information-on-github/searching-for-repositories)
+- [dubbo官网](http://dubbo.apache.org/zh-cn/docs/user/preface/requirements.html)
 - [epubee](http://cn.epubee.com)
 - [鸠摩搜书](https://www.jiumodiary.com/)
 - [虫部落](https://search.chongbuluo.com/)
@@ -148,6 +152,7 @@
 
 ## Spring Boot
 
+- [热部署](./SpringBoot/Spring热部署.md)
 - [Spring Boot缓存](./SpringBoot/SpringBoot缓存.md)
 - [Spring Boot的Web项目](./SpringBoot/SpringBoot的Web项目.md)
 - [页面模板](./SpringBoot/页面模板Thymeleaf.md)
