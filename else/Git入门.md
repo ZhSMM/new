@@ -95,13 +95,9 @@ git是一个分布式版本控制系统，中文文档地址：[https://git-scm.
    git merge upstream/master
    # 提交
    git push origin master
-   
-# 分支
+   # 分支
    git tag
-# 切换分支
+   # 切换分支
    git checkout [分支名]
+   
    ```
-   
-   
-   
-   
