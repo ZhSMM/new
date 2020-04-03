@@ -129,6 +129,7 @@
 
 ## MyBatis
 
+- [mybatis](./mybatis/01Mybatis.md)
 - [jdbc连接数据库](./mybatis/jdbc连接数据库.md)
 - [Mybatis](./mybatis/Mybatis.md)
 - [MyBatis使用](./mybatis/MyBatis使用.md)
