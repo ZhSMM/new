@@ -1,5 +1,7 @@
 # Spring Boot常用maven配置
 
+官方Starter：[https://docs.spring.io/spring-boot/docs/2.2.6.RELEASE/reference/htmlsingle/#using-boot](https://docs.spring.io/spring-boot/docs/2.2.6.RELEASE/reference/htmlsingle/#using-boot)
+
 pom.xml
 
 ```xml
