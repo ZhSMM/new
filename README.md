@@ -156,6 +156,7 @@
 
 - [热部署](./SpringBoot/Spring热部署.md)
 - [Spring Boot常用maven配置](./SpringBoot/SpringBoot常用maven配置.md)
+- [Spring Boot任务](./SpringBoot/SpringBoot任务.md)
 - [Spring Boot中yaml配置文件映射到pojo](./SpringBoot/SpringBoot中yaml配置文件映射到pojo.md)
 - [Spring Boot缓存](./SpringBoot/SpringBoot缓存.md)
 - [Spring Boot的Web项目](./SpringBoot/SpringBoot的Web项目.md)
