@@ -32,7 +32,8 @@ swagger是一款API开发工具。
 // 启用Swagger2配置
 @EnableSwagger2
 public class SwaggerConfig {
-
+	
+    // 通过添加多个Bean实现分组操作
     @Bean
     public Docket docket(Environment env){
         // 获取开发环境
@@ -43,6 +44,7 @@ public class SwaggerConfig {
 
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())  // 基本信息
+            	.groupName("Hello")  // 分组
                 .enable(flag)  // 是否开启swagger
                 .select()  // 选择器
                     // 选择相应项：
@@ -91,6 +93,33 @@ Swagger 通过注解定制接口对外展示的信息，这些信息包括接口
 - @ApiError ：发生错误返回的信息
 - @ApiImplicitParam：描述一个请求参数，可以配置参数的中文含义，还可以给参数设置默认值
 - @ApiImplicitParams：描述由多个 @ApiImplicitParam 注解的参数组成的请求参数列表
+
+```java
+// 模型
+@ApiModel("用户实体类")
+public class User {
+    @ApiModelProperty("用户名")
+    private String name;
+    @ApiModelProperty("密码")
+    private String password;
+}
+// 控制器
+@RestController
+public class HelloController {
+    @ApiOperation(value = "Hello",notes = "Hello notes",produces = "application/json")
+    @RequestMapping("/hello")
+    public String hello(){
+        return "Hello";
+    }
+
+    @ApiOperation(value = "User实体类设置",notes = "获得用户")
+    @PostMapping("/user/{name}/{password}")
+    public User user(@ApiParam("用户名") @PathVariable(value = "name")String name,
+                     @ApiParam("用户密码") @PathVariable(value = "password")String password){
+        return new User(name,password);
+    }
+}
+```
 
 访问：[http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 
