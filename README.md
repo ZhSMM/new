@@ -6,7 +6,6 @@
 
 ## 官方网站
 
-- [Git使用帮助](https://help.github.com/cn/github/searching-for-information-on-github/searching-for-repositories)
 - [dubbo官网](http://dubbo.apache.org/zh-cn/docs/user/preface/requirements.html)
 - [epubee](http://cn.epubee.com)
 - [鸠摩搜书](https://www.jiumodiary.com/)
@@ -182,3 +181,5 @@
 - [Git入门](./else/Git入门.md)
 - [DNS设置](./else/DNS设置.md)
 - [Swagger使用](./Swagger使用.md)
+- [Git使用帮助](https://help.github.com/cn/github/searching-for-information-on-github/searching-for-repositories)
+- [git在线练习](https://oschina.gitee.io/learn-git-branching/)
