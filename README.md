@@ -150,6 +150,7 @@
   - [通过java代码装配Bean](./Spring/通过java代码装配Bean.md)
   - [拆分配置类](./Spring/拆分配置类.md)
   - [高级装配](./Spring/高级装配.md)
+- [面向切面编程](./Spring/面向切面编程.md)
 
 ## Spring Boot
 
@@ -183,3 +184,4 @@
 - [Swagger使用](./Swagger使用.md)
 - [Git使用帮助](https://help.github.com/cn/github/searching-for-information-on-github/searching-for-repositories)
 - [git在线练习](https://oschina.gitee.io/learn-git-branching/)
+- [git命令](./git命令.md)
