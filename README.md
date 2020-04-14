@@ -1,5 +1,11 @@
 # 学习路径
 
+## 其他仓库
+
+- [docker基本使用](https://gitee.com/letoco/docker-learning)
+
+## 其他
+
 - [代码练习](https://github.com/ZhSMM/threadtest)
 - [旧笔记](https://zhsmm.github.io/Java/)
 - [面试问题](./java/面试准备.md)
